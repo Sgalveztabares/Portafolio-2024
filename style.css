@@ -15,7 +15,8 @@
 }
 
 body{
-    background: #1e536eca;
+    font-weight: bolder;
+    background: #28779eae;
 }
 
 section{
@@ -66,4 +67,9 @@ img{
     }
 }
 
+@media (min-width: 2560px){
+    #content{
+        margin: 0rem 30rem;
+    }
+}
 

@@ -11,6 +11,7 @@
 </head>
 <body>
 
+
     <!-- Navegador -->
     <header>
         <nav class="browser" id="browser">
@@ -23,6 +24,8 @@
         </nav>
     </header>
 
+<div class="content" id="content">
+
     <!-- Bienvenida -->
     <section class="welcome" id="welcome">
         <h1>BIENVENIDO</h1>
@@ -31,9 +34,9 @@
             al final encontrarás mi información de contacto. Espero que cada sección te resulte interesante. 
             Por último, te deseo un gran día.</p>
     </section>
-
+</div>
     <hr>
-
+<div class="content" id="content">
     <!-- Sobre Mi -->
     <section class="about-me" id="about-Me">
         <h2>Sobre Mi</h2>
@@ -55,9 +58,9 @@
             </p>
         </div>
     </section>
-
+</div>
     <hr>
-
+<div class="content" id="content">
     <!-- Habilidades -->
     <section class="skills" id="skills">
         <h2>Habilidades</h2>
@@ -84,9 +87,9 @@
         </div>
         <img src="./imagenes/imagen.png" alt="Imagen decorativa" class="img-2" width="150" height="150">
     </section>
-
+</div>
     <hr>
-
+<div class="content" id="content">
     <!-- Proyectos -->
     <section class="projects" id="projects">
         <h2>Proyectos</h2>
@@ -94,61 +97,39 @@
             <div class="project-card">
                 <h3>Proyecto 1</h3>
                 <div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ea iure cupiditate eius aspernatur.
-                        Soluta, nostrum vitae. Facilis, laborum quibusdam dolor sapiente maxime, ab adipisci, dicta
-                        porro repellendus a saepe?</p>
+                    <p></p>
                     <button type="button">Ver Más</button>
                 </div>
             </div>
             <div class="project-card">
                 <h3>Proyecto 2</h3>
                 <div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ea iure cupiditate eius aspernatur.
-                        Soluta, nostrum vitae. Facilis, laborum quibusdam dolor sapiente maxime, ab adipisci, dicta
-                        porro repellendus a saepe?
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ea iure cupiditate eius aspernatur.
-                        Soluta, nostrum vitae. Facilis, laborum quibusdam dolor sapiente maxime, ab adipisci, dicta
-                        porro repellendus a saepe?</p>
+                    <p></p>
                     <button type="button">Ver Más</button>
-                </div>
-            </div>
-            <div class="project-card">
-                <h3>Proyecto 3</h3>
-                <div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ea iure cupiditate eius aspernatur.
-                        Soluta, nostrum vitae. Facilis, laborum quibusdam dolor sapiente maxime, ab adipisci, dicta
-                        porro repellendus a saepe?</p>
-                    <button type="button">Ver Más</button>
-                </div>
-            </div>
-            <div class="project-card">
-                <h3>Proyecto 4</h3>
-                <div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ea iure cupiditate eius aspernatur.
-                        Soluta, nostrum vitae. Facilis, laborum quibusdam dolor sapiente maxime, ab adipisci, dicta
-                        porro repellendus a saepe?</p>
-                    <button type="button">Ver Más</button>
-                </div>
             </div>
         </div>
     </section>
+</div>
 
+<div class="content" id="content">
     <!-- Contacto -->
     <section class="contact" id="contact">
         <legend><b>Contactame</b></legend>
-        <form action="" id="form">
-            <label for="" class="label-form">Nombre</label>
-            <input type="text" placeholder="Nombre">
+        <form action="https://formspree.io/f/xovqwpkn"
+        method="POST" id="form">
+            <label for="" class="label-form" >Nombre</label>
+            <input type="text" name="name" placeholder="Nombre" required>
 
-            <label for="" class="label-form">Correo Electrónico</label>
-            <input type="email" placeholder="example@gmail.com">
+            <label for="" class="label-form" >Correo Electrónico</label>
+            <input type="email" name="email" placeholder="example@gmail.com" minlength="10" required>
 
             <label for="" class="label-form">Asunto</label>
-            <textarea name="" id="" placeholder="Asunto del mensaje"></textarea>
+            <textarea name="Mensage" id="" placeholder="Asunto del mensaje" minlength="10" required></textarea>
 
             <button type="submit">Enviar</button>
         </form>    
     </section>
+</div>
 
     <!-- Footer -->
     <footer>
