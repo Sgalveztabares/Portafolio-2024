@@ -1,0 +1,42 @@
+nav{
+    padding: 1vh;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul > li{
+    text-align: center;
+    padding: 5px;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(241, 239, 239);
+    transition: 0.3;
+}
+
+a:hover{
+    color: transparent;
+    background: gray;
+    background-clip: text;
+    transition: 0.3s;
+}
+
+#browser{
+    background-color: #15386F;
+}
+
+@media (min-width: 636px){
+    nav{
+        padding: 4vh;
+        font-size: 18px;
+    }
+
+    nav > ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

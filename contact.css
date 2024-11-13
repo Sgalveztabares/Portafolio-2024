@@ -1,0 +1,99 @@
+textarea::placeholder{
+    color:whitesmoke;
+}
+
+textarea{
+    background: #1E536E;
+    border: solid #3e3f66 0.5px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 80%;
+    height: 6rem;
+}
+
+legend{
+    color: rgba(255, 255, 255, 0.855);
+    text-align: center;
+    padding-top: 1vh;
+    margin: 2vh;
+}
+
+#contact{
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    width: 90%;
+    position: relative;
+    text-align: center;
+    margin-top: 2rem;
+    background: #1A334A;
+}
+
+#form{
+    align-items: center;
+    display: flex;
+    margin-bottom: 2vh;
+    flex-direction: column;
+}
+
+#form > label{
+    color: white;
+}
+
+#form > input{
+    background: #1E536E;
+    border: solid #3e3f66 0.5px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 80%;
+}
+
+#form > input::placeholder{
+    color: whitesmoke;
+}
+
+#form > button{
+    font-size: 15px;
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 10PX;   
+    border: none;
+    background-color: #045A71;
+    color: white;
+    cursor: pointer;
+    width: 6rem;
+}
+
+#form > button:hover{
+    background-color: #2D8DA5;
+}
+
+#form > button:active{
+    background-color: #275A91;
+    box-shadow: 1px 1px 4px 1px #ffffff6a;
+}
+
+@media (min-width: 768px){
+    #contact{
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 1024px){
+    #contact{
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 1440px){
+    #contact{
+        width: 50%;
+    }
+
+}

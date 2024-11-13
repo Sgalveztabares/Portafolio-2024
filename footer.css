@@ -1,0 +1,21 @@
+footer{
+    text-align: center;
+    padding: 2vh;
+    margin-top: 3rem;
+    background: #212529;
+    color: whitesmoke;
+}
+
+
+footer label{
+    font-size: 2.5vh;
+}
+
+footer > a:hover{
+    color:#354252
+}
+
+.networks{
+    display: flex;
+    justify-content: space-evenly;
+}

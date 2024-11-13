@@ -1,0 +1,17 @@
+#welcome{
+    background: transparent;
+}
+
+#welcome > h1{
+    padding-top: 13px;
+    margin: 7px;
+    font-size: 4vh;
+    text-align: center;
+    color: transparent;
+    background: linear-gradient(to right, #232A37, #130e67);
+    background-clip: text;
+}
+
+#welcome > p{
+    text-align: justify;
+}

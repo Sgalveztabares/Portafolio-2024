@@ -1,0 +1,61 @@
+input[type="range"]{
+    appearance: none;
+    width: 85%;
+    border-radius: 20px;
+    height: 16px;
+    pointer-events: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 0; 
+    height: 0; 
+}
+
+#skills{
+    text-align: center;
+    background: transparent;
+}
+
+.input-skills{
+    text-align: left !important;
+}
+
+
+.technical-skills{
+    width: 100%;
+}
+
+.img-2{
+    margin-top: 4vh;
+}
+
+.html{
+    background:linear-gradient(to right, rgb(255, 129, 2) 60%, white 60%);
+}
+
+.css{
+    background:linear-gradient(to right, rgb(6, 39, 255) 50%, white 50%);
+}
+
+.javascript{
+    background:linear-gradient(to right, #ffeb3b 40%, white 40%);
+}
+
+.c-plus-plus{
+    background:linear-gradient(to right, #014ba0 20%, white 20%);
+}
+
+@media (min-width: 1024px){
+    .img-2{
+        
+        margin-top: 4vh;
+        ;
+        
+    }
+
+    .technical-skills{
+        display: inline-block;
+        width: 80%;
+    }
+
+}
