@@ -7,8 +7,7 @@
     margin: 7px;
     font-size: 4vh;
     text-align: center;
-    color: transparent;
-    background: linear-gradient(to right, #232A37, #130e67);
+    color: #0f0e30;
     background-clip: text;
 }
 
